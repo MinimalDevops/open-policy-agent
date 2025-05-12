@@ -13,7 +13,7 @@ This repository is a growing collection of **modular, production-ready Rego poli
 |------------------|---------------------------------------------------------------------|-----------|
 | 🖥️ EC2 Access Control | **Time-based & IP-based SSH access to EC2 using Bastion Host + OPA** | [Read blog →](https://medium.com/@minimaldevops/time-based-ec2-access-with-opa-enforcing-secure-ssh-access-using-open-policy-agent-ac03ef43102f?sk=1a1a7b61823a6c7763af267858d57c4e) |
 | ☁️ Coming Soon   | Role-based access across multiple clouds (AWS, Azure, GCP)         | _TBD_ |
-| 🔐 Coming Soon   | OPA + Kubernetes Admission Controllers                              | _TBD_ |
+| 🔐 Coming Soon   | OPA + Kubernetes Admission Controllers                              | [Read blog →](https://minimaldevops.com/kubernetes-governance-with-opa-gatekeeper-8841e09b242f) |
 | 🌐 Coming Soon   | Geolocation-based policy enforcement using external IP APIs         | _TBD_ |
 | 🚀 Coming Soon   | Just-in-Time access with Session Manager + Lambda + OPA            | _TBD_ |
 

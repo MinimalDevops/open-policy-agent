@@ -1,0 +1,29 @@
+{
+    "namespace": "production",
+    "resource": {
+        "kind": "Pod",
+        "spec": {
+            "containers": [
+                {
+                    "name": "app",
+                    "image": "docker.io/myapp:1.0.0",
+                    "securityContext": {
+                        "runAsUser": 1000,
+                        "readOnlyRootFilesystem": true,
+                        "privileged": false
+                    },
+                    "resources": {
+                        "limits": {
+                            "cpu": "500m",
+                            "memory": "512Mi"
+                        },
+                        "requests": {
+                            "cpu": "100m",
+                            "memory": "128Mi"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+} 

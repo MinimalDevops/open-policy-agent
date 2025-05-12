@@ -1,0 +1,6 @@
+{
+    "user": "user1",
+    "cloud_provider": "aws",
+    "action": "ec2:StartInstances",
+    "resource": "arn:aws:ec2:us-west-2:123456789012:instance/i-1234567890abcdef0"
+} 
